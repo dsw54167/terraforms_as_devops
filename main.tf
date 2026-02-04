@@ -1,4 +1,5 @@
 resource "digitalocean_project" "main" {
-    name = "Main Project"   
+    name = "Test Project for terraform learning"   
     purpose = "Development"
+    description = "my first project for learning the ropes"
 }
