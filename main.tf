@@ -6,7 +6,7 @@ resource "digitalocean_project" "main" {
 
 resource "digitalocean_droplet" "main" {
     name= "main droplet"
-    image= "ubuntu-20-04-x64"
+    image= "ubuntu-24-04-x64"
     size="s-1vcpu-1gb"
     region="nyc3"  
 }
